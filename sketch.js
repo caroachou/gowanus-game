@@ -59,7 +59,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1200, 800);
+  createCanvas(1500, 1000);
 
   video.hide();
 
