@@ -5,7 +5,7 @@ class Microbe {
     this.lifespan = lifespan
     this.pos = position
     this.type = type;
-    this.vel = createVector(random(-1.5, 1.5), random(-1.5, 1.5));
+    this.vel = createVector(random(-1.5, 0.8), random(-1.5, 0.8));
       this.maxspeed = 1;
     this.dna = dna;
     this.health = 100;
