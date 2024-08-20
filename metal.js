@@ -3,7 +3,7 @@ class Metal {
     this.pos = createVector(x, y);
     this.maxspeed = 1;
     this.maxforce = 0.03;
-    this.vel = createVector(random(-1.5, 1.5), random(-1.5, 1.5));
+    this.vel = createVector(random(-1.5, 0.8), random(-1.5, 0.8));
     this.initialVel = this.vel.copy();
     this.hydrogelWidth = hydrogelWidth;
     this.hydrogelHeight = hydrogelHeight; 
