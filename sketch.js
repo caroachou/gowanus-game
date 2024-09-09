@@ -162,7 +162,7 @@ function attractMetals() {
 
       metals.forEach((metal, index) => {
         metal.attract(target);
-        if (metal.isAttracted(target) && metal.pos.y < waterLevel - 50) {
+        if (metal.isAttracted(target) && metal.pos.y < waterLevel) {
           metals.splice(index, 1);
           sound.play();
         }
