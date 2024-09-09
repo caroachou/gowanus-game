@@ -14,7 +14,7 @@ let Resistant;
 let mercury;
 let lead;
 let metals = [];
-let waterLevel = 250;
+let waterLevel = 350;
 let videoWidth = 640;
 let videoHeight = 480;
 let indent = 10;
