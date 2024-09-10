@@ -30,7 +30,7 @@ class Metal {
   
   attract(target) {
     let direction = p5.Vector.sub(target, this.pos); 
-    let d = direction.setMag(0.15);
+    let d = direction.setMag(0.75);
     this.pos.add(direction);
     let slowingRadius = 5;
     
